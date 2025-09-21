@@ -26,6 +26,10 @@ Both derived classes call the parent constructor to initialize shared attributes
 
 `SavingsAccount` only extends functionality relevant to savings (interest handling). Meanwhile, `CheckingAccount` focuses on transaction fee management.
 
+### Docstrings
+
+All methods are documented using Python docstrings. This provides built-in documentation that is displayed in IDEs when hovering over a method
+
 ### Error handling
 
 Methods return a `boolean` to indicate success or failure. This enables more robust error handling (e.g. preventing overdrafts, rejecting invalid deposits).
